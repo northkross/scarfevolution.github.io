@@ -2,3 +2,9 @@ body{
 margin: 0;
 background: lavender;
 }
+
+h1{
+text-align: center;
+border-radius: 10px;
+color: argb(255, 255, 255, .40);
+}
