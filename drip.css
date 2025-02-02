@@ -10,6 +10,6 @@ color: argb(255, 255, 255, .40);
 }
 
 textarea{
-width:200px;
-height:200px;
+rows:20;
+cols:20;
 }
