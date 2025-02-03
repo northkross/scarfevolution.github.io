@@ -12,5 +12,5 @@ const moreComm = document.createElement("div");
   commentSection.appendChild(moreComm);
 
    combox.value = "";
-   }
- }
+   });
+ });
