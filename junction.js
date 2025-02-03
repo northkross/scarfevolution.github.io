@@ -30,10 +30,7 @@ const commentSection = document.getElementById("box");
         commentSection.appendChild(moreComm);
 combutt.addEventListener("click", function () {
 const commentText = combox.value.trim();
-
-
-
-  commentSection.appendChild(moreComm);
+    addComment(commentText);
     saveComments();
    combox.value = "";
    });
