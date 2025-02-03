@@ -25,9 +25,10 @@ const commentSection = document.getElementById("box");
             moreComm.remove();
             saveComments(); // Update localStorage when a comment is deleted
         };
-       };
+       
         moreComm.appendChild(deleteButton);
         commentSection.appendChild(moreComm);
+       }
 combutt.addEventListener("click", function () {
 const commentText = combox.value.trim();
     addComment(commentText);
