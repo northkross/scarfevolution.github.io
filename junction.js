@@ -1,7 +1,14 @@
-function commfunc(){
-combox.value = combox;
-}
+
 const combox = document.getElementById("comment");
 const combutt = document.getElementById("submit");
 
-combutt.onclick = commfunc;
+ combutt.addEventListener("click", function () {
+ const commentText = combox.value.trim();
+
+const moreComm = document.createElement("div");
+   moreComm.classList.add("comment");
+   moreComm.textContent = commentText;
+
+
+   combox.value = "";
+ }
