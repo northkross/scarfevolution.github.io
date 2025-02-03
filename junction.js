@@ -13,15 +13,28 @@ const commentSection = document.getElementById("box");
         const comments = Array.from(commentSection.children).map(comment => comment.textContent);
         localStorage.setItem("comments", JSON.stringify(comments));
     }   
+       function addComment(commentText) {
+        const moreComm = document.createElement("div");
+        moreComm.classList.add("comment");
+        moreComm.textContent = commentText;
+           
+        const deleteButton = document.createElement("button");
+        deleteButton.textContent = "❌";
+        deleteButton.classList.add("delete-btn");
+        deleteButton.onclick = function () {
+            moreComm.remove();
+            saveComments(); // Update localStorage when a comment is deleted
+        };
+       };
+        moreComm.appendChild(deleteButton);
+        commentSection.appendChild(moreComm);
 combutt.addEventListener("click", function () {
 const commentText = combox.value.trim();
 
-const moreComm = document.createElement("div");
-   moreComm.classList.add("comment");
-   moreComm.textContent = commentText;
+
 
   commentSection.appendChild(moreComm);
-
+    saveComments();
    combox.value = "";
    });
    loadComments();
