@@ -4,7 +4,7 @@ const combutt = document.getElementById("submit");
 const commentSection = document.getElementById("box");
 
     function loadComments() {
-        const savedComments = JSON.parse(localStorage.getItem("comments")) || [];
+        const savedComments = JSON.parse(localStorage.getItem("comments")) || "No Posts";
         savedComments.forEach(commentText => addComment(commentText));
     }
 
