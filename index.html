@@ -15,5 +15,9 @@
   <script src="junction.js"></script>
     <script>
         document.getElementById("box").textContent = localStorage.getItem("comments") || "No Posts";
+        function addComment(commentText) {
+        const moreComm = document.createElement("div");
+        moreComm.classList.add("comment");
+        moreComm.textContent = commentText;}
     </script>
 </html>
