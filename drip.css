@@ -16,6 +16,8 @@ div{
 border-radius: 20px;
 background: lightcyan;
 color: black;
+display: block;
+margin-left: auto;
 }
 
 textarea{
@@ -24,6 +26,13 @@ border-radius: 20px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+}
+
+button{
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size: 16;
 }
 
 
