@@ -3,6 +3,7 @@ margin: 0;
 background-image: url("https://raw.githubusercontent.com/northkross/scarfevolution.github.io/refs/heads/main/7135EColor.png");
 background-size: cover;
 background-attachment: fixed;
+background-color: transparent;
 }
 
 h1{
