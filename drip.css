@@ -35,4 +35,15 @@ margin-right: auto;
 font-size: 16;
 }
 
+.header{
+color: azure;
+background-color: transparent;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.p-0{
+padding: 0 !important;
+}
 
