@@ -13,7 +13,7 @@ color: argb(255, 255, 255, .40);
 }
 
 div{
-border-radius: 20px;
+border-radius: 5px;
 background: lightcyan;
 color: black;
 display: block;
