@@ -37,10 +37,12 @@ font-size: 16;
 
 .header{
 color: azure;
-background-color: transparent;
+background-color: transparent;  
 margin-left: auto;
 margin-right: auto;
-text-align: center;
+box-shadow: 1px 1px;
+height: 15%;
+width: 100%;
 }
 
 .p-0{
