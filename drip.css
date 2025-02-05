@@ -66,4 +66,6 @@ border: 1px blue;
 margin: 10px;
 background-color: gold;
 border-radius: 15px;
+text-align: center;
+display: block;
 }
