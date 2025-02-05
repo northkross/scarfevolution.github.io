@@ -54,3 +54,7 @@ text-align: center;
 .fontweight{
 font-weight: 700;
 }
+
+a{
+text-decoration: none;
+}
