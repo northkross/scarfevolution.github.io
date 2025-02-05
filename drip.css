@@ -6,6 +6,10 @@ background-attachment: fixed;
 background-color: transparent;
 }
 
+.flex-container {
+  display: flex;
+}
+
 h1{
 text-align: center;
 border-radius: 10px;
