@@ -58,6 +58,8 @@ font-weight: 700;
 }
 
 a{
+font-weight: 700;
+font-color: black;
 width: 100px;
 padding: 15px;
 border: 1px blue;
