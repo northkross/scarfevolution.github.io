@@ -47,3 +47,10 @@ text-align: center;
 padding: 0 !important;
 }
 
+.posthead{
+text-align: center;
+}
+
+.fontweight{
+font-weight: 700;
+}
