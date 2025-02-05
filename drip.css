@@ -8,6 +8,7 @@ background-color: transparent;
 
 .flex-container {
   display: flex;
+  background-color: azure;
 }
 
 h1{
