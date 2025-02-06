@@ -20,7 +20,7 @@ background: transparent;
 
 div{
 border-radius: 5px;
-background: cyan;
+background: transparent;
 color: black;
 display: block;
 margin-left: auto;
@@ -75,4 +75,14 @@ background-color: gold;
 border-radius: 15px;
 text-align: center;
 display: block;
+}
+
+.box{
+border-radius: 5px;
+width: 100%;
+padding: 20px;
+background: gold;
+color: black;
+display: block;
+margin-left: auto;
 }
