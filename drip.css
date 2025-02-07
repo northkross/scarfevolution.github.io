@@ -87,3 +87,9 @@ display: block;
 margin-left: auto;
 border: 1px transparent;
 }
+
+p{
+display: block;
+font-size: 16;
+font-weight: 700;
+}
