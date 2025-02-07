@@ -108,3 +108,19 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+
+.new-post-container {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+#newpost {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
