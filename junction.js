@@ -17,7 +17,7 @@ const commentSection = document.getElementById("box");
        function addComment(commentText) {
         if (!commentText) return; // Prevent empty posts
         const moreComm = document.createElement("div");
-        moreComm.classList.add("comment");
+        moreComm.classList.add("comment-box");
         moreComm.textContent = commentText;
            
         const deleteButton = document.createElement("button");
