@@ -31,11 +31,13 @@ const commentSection = document.getElementById("box");
         moreComm.appendChild(deleteButton);
         commentSection.appendChild(moreComm);
        }
+if (combutt) {
 combutt.addEventListener("click", function () {
 const commentText = combox.value.trim();
     addComment(commentText);
     saveComments();
    combox.value = "";
    });
+}
    loadComments();
  });
